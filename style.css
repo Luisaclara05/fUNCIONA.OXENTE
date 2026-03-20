@@ -367,3 +367,135 @@ footer {
 .footer-contatos a:hover {
   color: #ff3b3b;
 }
+/* ===== RESPONSIVO GERAL ===== */
+
+/* TABLETS */
+@media (max-width: 1024px) {
+
+  .navbar {
+    padding: 15px 4%;
+  }
+
+  .hero h1 {
+    font-size: 32px;
+  }
+
+  .overlay {
+    padding: 40px;
+  }
+
+  section {
+    padding: 60px 5%;
+  }
+
+  .stats {
+    gap: 30px;
+  }
+
+}
+
+/* CELULARES */
+@media (max-width: 768px) {
+
+  /* NAVBAR */
+  .navbar {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .navbar nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .navbar nav a {
+    margin: 5px;
+    font-size: 14px;
+  }
+
+  .logo {
+    height: 55px;
+  }
+
+  /* HERO */
+  .hero {
+    padding: 20px;
+    height: auto;
+  }
+
+  .hero h1 {
+    font-size: 26px;
+  }
+
+  .overlay {
+    padding: 25px;
+  }
+
+  /* BOTÕES */
+  .btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* CARDS */
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+  }
+
+  /* STATS */
+  .stats {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  /* FORM */
+  .form form {
+    flex-direction: column;
+  }
+
+  .form input,
+  .form textarea,
+  .form button {
+    width: 100%;
+  }
+
+  /* CTA */
+  .cta {
+    margin: 30px 5%;
+    padding: 40px 20px;
+  }
+
+}
+
+/* CELULARES PEQUENOS */
+@media (max-width: 480px) {
+
+  .hero h1 {
+    font-size: 22px;
+  }
+
+  .hero p {
+    font-size: 14px;
+  }
+
+  .btn {
+    padding: 12px;
+    font-size: 14px;
+  }
+
+  .faq-question {
+    font-size: 14px;
+  }
+
+  .stat h2 {
+    font-size: 32px;
+  }
+
+}
